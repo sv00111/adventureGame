@@ -1,0 +1,150 @@
+r Warriors Ground
+d You are at the star player for the NBA’s Golden State Warriors, getting ready to play an exciting season for the fans.
+d How do you want to get ready for the season?
+o Practice with the team.
+t Practice
+o Go out and party.
+t Party
+o Talk to the GM.
+t GM’s office
+
+r Practice
+d You are at practice.
+d You are learning how to make plays, and get along with your teammates.
+d You see one of your teammates slacking and isn’t playing the way he is supposed to.
+d As the leader of the team what do you do?
+o Let coach handle it, and focus on practicing.
+t Practice
+o Finish practice, go home, and get some rest for the game.
+t Home
+o Confront your teammate, and tell him what to do!
+t Locker Room
+
+r Party
+d You are getting really close with your most of your teammates
+d The drinks are expensive, but its all part of the fun
+d All the fans are asking for autographs, and its really great for your publicity
+o Stay out and party with your teammates.
+t Party
+o Go home and get some rest for tomorrow.
+t Home
+
+r Locker Room
+d You show your teammates how to perform when all the eyes are on them
+d They have tremendous respect for you, and learn from what you have to offer
+o Take your teammates out.
+t Party
+o Go home and get some rest.
+t Home
+o Talk to the GM’s about your teammates.
+t GM’s office
+
+r Home
+d You finally got home after a long day.
+d Its about time you get some rest, and head to bed.
+d ZZZZZZZZZZZZZZZZZZZZZZ.
+d You wake up in the morning, feeling ready for today.
+d Its game day, and you are ready to make a great impression on your fans.
+o Pack your bag and head out to the game.
+t Game
+
+r GM’s office
+d The GM’s calls you in his office to sit and talk about your progress.
+d He is very impressed with what you have to offer the team.
+d Do you have anything to talk about with the GM?
+o Congratulate the GM on building such a great team and head to practice.
+t Practice
+o Ask the GM to trade you cause you don’t get along with a teammate.
+t Trade Room
+
+r Trade Room
+d The GM informs you that you are too valuable to trade, and wants you to go to practice and learn to work with the team
+o Head to practice.
+t Practice
+
+r Game
+d ITS GAME DAY!!
+d THE ARENA IS SOLD OUT
+d You are playing your rivals the LA Clippers on opening day
+d You have to beat them to make up for the embarrassing defeat from last year.  
+d The game is going well, but you aren’t doing as well as you normally do
+d You think it might be the shoes you are wearing.
+d You play the game out till halftime, and aren’t sure how to approach the other half of the game
+o Change your shoes to avoid any bad luck
+t Shoes Changed
+o Shake off your superstitions and play harder
+t SecondHalf no shoes changed
+
+r Shoes Changed
+d You think you got your charm back, lets see how far it takes you
+d You seem to be doing really well, and are getting your team back into it
+d With the game winding down, your team is down by 1 with 5 seconds left, and you are double teamed
+d What do you do?
+o Pass the ball to an open teammate.
+t pass to team shoe change
+o Take the shot yourself, cause you have been really hot this game.
+t Take Shot shoe change
+
+
+r SecondHalf no shoes changed
+d You shake it off, shake it off
+d You shake it off, shake it off
+d You start going to the fundamentals, and play carefully 
+d You seem to be doing really well, and are getting your team back into it
+d With the game winding down, your team is down by 2 with 5 seconds left, and you are double teamed
+d What do you do?
+o Pass the ball to an open teammate.
+t pass to team no shoe change
+o Take the shot yourself, cause you have been really hot this game.
+t Take Shot no shoe change
+
+r pass to team shoe change
+d You pass to your teammate, and he launches a wide open three.
+d Oh no, your game comes down to this shot.
+d ..........
+d ..........
+d ..........
+d ANDDDDDDD 
+d HE MISSED THE SHOT
+d Now you know to take the shot yourself when you are doing so well
+o You lost the game, press a to restart.
+t Warriors Ground
+
+r Take Shot shoe change
+d You square up against Chris Paul
+d Take a stutter step, and hesitate to throw him off
+d Chris takes a few steps back, and you launch a three pointer
+d ..........
+d ..........
+d ..........
+d ANDDDDDDD 
+d YOU MADE THE SHOT
+d YOU WON THE GAMEEEEE
+o CONGRATULATIONS ON WINING THE GAME, press a to restart and q to quit.
+t Warriors Ground
+
+
+r pass to team no shoe change
+You pass to your teammate, and he launches a wide open three.
+d Oh no, your game comes down to this shot.
+d ..........
+d ..........
+d ..........
+d ANDDDDDDD 
+d HE MADE THE SHOT
+d HE WON THE GAMEEEEE
+o CONGRATULATIONS ON WINING THE GAME, press a to restart and q to quit.
+t Warriors Ground
+
+r Take Shot no shoe change
+d You square up against Chris Paul
+d Take a stutter step, and hesitate to throw him off
+d Chris takes a few steps back, and you launch a three pointer
+d ..........
+d ..........
+d ..........
+d ANDDDDDDD 
+d YOU MISSED THE SHOT
+d Now you know to change your shoes to avoid bad luck
+o You lost the game, press a to restart.
+t Warriors Ground

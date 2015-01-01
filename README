@@ -1,0 +1,18 @@
+//Shrey Valia & Aman Mangalore
+//svalia & aamangal
+//12/8/14
+//cmps012b
+//README
+//the README, describing what we are turning in and how to win the game.
+
+
+Contents of the README:
+README
+Makefile
+CYOA.java
+design.txt
+demo.adventure
+
+
+To win the game:
+a->c->a->b->a->a->b
